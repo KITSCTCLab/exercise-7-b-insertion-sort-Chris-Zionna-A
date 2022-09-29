@@ -1,9 +1,9 @@
 from typing import List
 
 def insertionSort(array) -> List[int]:
-  n= len(array)
+  n=len(array)
   for i in range(1,n):
-    key=list[i]
+    key=array[i]
     j=i-1
     while(j>=0 and array[j]>key):
       array[j+1] = array[j]
